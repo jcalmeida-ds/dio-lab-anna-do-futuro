@@ -30,15 +30,28 @@ Defina **o que** seu agente faz e **como** ele funciona:
 ---
 
 ### 2. Base de Conhecimento
+## Dados Utilizados
 
-Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
+| Arquivo | Formato | Utilização no Agente |
+|---------|---------|---------------------|
+| `base_conhecimento_anna.md` | Markdown | Fonte única de conhecimento da Anna: 21 itens de perguntas e respostas sobre cartão de crédito, consórcio, CDB, seguro de vida, crédito pessoal, educação financeira e segurança, cada um com palavras-chave, cuidado e quando o produto não é indicado |
+| Memória de sessão (`PERFIL`) | Dicionário Python em memória | Guarda nome, objetivo e perfil informados pelo cliente durante a conversa, para personalizar as respostas sem armazenar dados sensíveis |
 
-| Arquivo | Formato | Descrição |
-|---------|---------|-----------|
-| `transacoes.csv` | CSV | Histórico de transações do cliente |
-| `historico_atendimento.csv` | CSV | Histórico de atendimentos anteriores |
-| `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
-| `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
+Os arquivos de exemplo do template (`historico_atendimento.csv`, `perfil_investidor.json`, `produtos_financeiros.json` e `transacoes.csv`) **não foram utilizados** nesta versão. A Anna é uma assistente educativa que não acessa dados de clientes, contas ou transações; a personalização acontece apenas pelo que o cliente conta na própria conversa.
+
+---
+
+## Adaptações nos Dados
+
+Em vez de adaptar os dados mockados, criei uma base própria, voltada ao objetivo da Anna: explicar produtos financeiros básicos e tratar dúvidas e resistências comuns dos clientes.
+
+- **Conteúdo:** 21 itens em 7 categorias (cartão de crédito 4, consórcio 4, CDB 4, seguro de vida 3, crédito pessoal 3, educação financeira 2 e segurança 1).
+- **Estrutura de cada item:** identificador, produto, palavras-chave, pergunta, resposta, cuidado e "não é indicado quando". Os campos de cuidado e de restrição ensinam a Anna a falar também dos riscos e de quando o produto não serve.
+- **Perguntas baseadas em dúvidas reais de atendimento,** como "cartão com anuidade vale a pena?" e "consórcio demora demais?", escritas sem dados de clientes e sem informações internas de nenhuma instituição.
+- **Sem números que mudam:** a base não traz taxas, limites nem alíquotas de nenhuma instituição. Para temas sujeitos a regras vigentes (como FGC e imposto de renda), ela orienta o cliente a consultar a fonte oficial.
+- **Cálculos fora da base:** parcelas e rendimentos não ficam no texto, mas em funções em Python que o modelo chama durante a conversa.
+
+---
 
 Você pode adaptar ou expandir esses dados conforme seu caso de uso.
 
