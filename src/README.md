@@ -38,7 +38,7 @@ echo "OPENAI_API_KEY=sua-chave-aqui" > .env
 python app.py
 ```
 
-Abra o endereço que aparecer no terminal (normalmente http://127.0.0.1:7860).
+Abra o endereço que aparecer no terminal (http://127.0.0.1:7860).
 
 Variáveis opcionais:
 
