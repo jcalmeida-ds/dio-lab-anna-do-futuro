@@ -139,10 +139,10 @@ Orientação aos participantes: a Anna é um assistente **educativo**, que não 
 
 | Testador | Assertividade | Segurança | Coerência | Comentário |
 |---|---|---|---|---|
-| Pessoa 1 | | | | |
-| Pessoa 2 | | | | |
-| Pessoa 3 | | | | |
-| **Média** | | | | |
+| Pessoa 1 | 5 | 5 | 5 | "Bem ituitivo"|
+| Pessoa 2 | 4 | 5 | 5 | "Algumas perguntas apresentaram divergencias" |
+| Pessoa 3 | 5 | 4 | 5 | "Bom assistente, útil quando precisamos"|
+| **Média** | 5 | 5  | 5 | |
 
 ### O que funcionou bem:
 - [Preencher depois dos testes]
