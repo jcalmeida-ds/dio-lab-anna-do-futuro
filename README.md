@@ -1,6 +1,6 @@
 # 🤖 Anna: Assistente Virtual de Relacionamento Financeiro com IA Generativa
 
-[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jcalmeida-ds/dio-lab-anna-do-futuro/blob/main/src/Anna_Assistente_Virtual.ipynb)
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jcalmeida-ds/dio-lab-anna-do-futuro/blob/main/src/Anna_Assistente_Virtual-v2.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![OpenAI](https://img.shields.io/badge/API-OpenAI-412991)
 ![Gradio](https://img.shields.io/badge/Interface-Gradio-orange)
