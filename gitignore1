@@ -1,0 +1,15 @@
+# Chaves e segredos
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
