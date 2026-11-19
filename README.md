@@ -7,7 +7,7 @@
 
 Projeto do bootcamp **Bradesco GenAI & Dados (DIO)**: a **Anna** é uma assistente virtual de IA generativa que explica produtos financeiros básicos de forma simples, honesta e sem pressão, faz simulações calculadas em Python e lembra o contexto da conversa.
 
-🎥 **Pitch em vídeo (3 min):** *link em breve*
+🎥 **Pitch em vídeo (3 min): [https://youtu.be/itzoX6vKNt0]
 
 > **Aviso:** a Anna é um projeto educacional. Os conteúdos são genéricos, os valores das simulações são ilustrativos e nada aqui é recomendação de investimento ou promessa de aprovação de crédito.
 
